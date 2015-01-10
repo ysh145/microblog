@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'restart' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose run-script [ 'prerestart',
+5 verbose run-script   'prestop',
+5 verbose run-script   'stop',
+5 verbose run-script   'poststop',
+5 verbose run-script   'restart',
+5 verbose run-script   'prestart',
+5 verbose run-script   'start',
+5 verbose run-script   'poststart',
+5 verbose run-script   'postrestart' ]
+6 info prerestart microblog@0.0.0
+7 info prestop microblog@0.0.0
+8 info stop microblog@0.0.0
+9 info poststop microblog@0.0.0
+10 info restart microblog@0.0.0
+11 info prestart microblog@0.0.0
+12 info start microblog@0.0.0
+13 verbose unsafe-perm in lifecycle true
+14 info microblog@0.0.0 Failed to exec start script
+15 error microblog@0.0.0 start: `node ./bin/www`
+15 error Exit status 1
+16 error Failed at the microblog@0.0.0 start script.
+16 error This is most likely a problem with the microblog package,
+16 error not with npm itself.
+16 error Tell the author that this fails on your system:
+16 error     node ./bin/www
+16 error You can get their info via:
+16 error     npm owner ls microblog
+16 error There is likely additional logging output above.
+17 error System Windows_NT 6.1.7600
+18 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "restart"
+19 error cwd C:\Users\Sean\nodejsprj\microblog
+20 error node -v v0.10.35
+21 error npm -v 1.4.28
+22 error code ELIFECYCLE
+23 verbose exit [ 1, true ]
